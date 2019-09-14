@@ -171,7 +171,7 @@ def efetivaJogada(mapaArray, maskArray, jogada, descobertos):
     else:
         print("Você errou, tente novamente.")
         return mescla
-    return -1
+    return 0
 
 ## Function ganhei
 ## Descrição: Verifica se todos os numeros ja foram descobertos.
